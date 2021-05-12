@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import Chips from './components/Chips';
+// import GameActions from './components/GameActions';
+// import Header from './components/Header';
+// import OpponentHand from './components/OpponentHand';
+// import ProgressBar from './components/ProgressBar';
+// import ScoreInfo from './components/ScoreInfo';
+// import Title from './components/Title';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// export { Chips, GameActions, Header, OpponentHand, ProgressBar, ScoreInfo, Title };
+export { default as Title } from './components/Title';
+export { default as GameActions } from './components/GameActions';
+export { default as Header } from './components/Header';
+export { default as OpponentHand } from './components/OpponentHand';
+export { default as ProgressBar } from './components/ProgressBar';
+export { default as ScoreInfo } from './components/ScoreInfo';
+export { default as Chips } from './components/Chips';

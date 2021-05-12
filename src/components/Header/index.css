@@ -1,0 +1,23 @@
+.container {
+  /* padding: 8px 0; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.balance-label {
+  font-weight: bold;
+  color: #ff6600;
+}
+
+.balance-value {
+  color: #fff;
+}
+
+.App-header {
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}

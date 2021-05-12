@@ -1,0 +1,13 @@
+.table-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.bets-label {
+  font-size: 16px;
+  color: #ff6600;
+}
+
+.bets-val {
+  color: #000;
+}

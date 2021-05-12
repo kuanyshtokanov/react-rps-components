@@ -1,0 +1,19 @@
+.action-icons {
+  margin-top: 8px;
+  padding: 0 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.icons {
+  color: #ff6600;
+  height: 3em;
+  width: 3em;
+}
+
+.icon-selected {
+  color: #fff;
+  height: 3em;
+  width: 3em;
+}

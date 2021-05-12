@@ -1,0 +1,16 @@
+.computer-response {
+  margin: 32px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.computer-option {
+  margin: 16px;
+}
+
+.response-icon {
+  color: #ff1a1a;
+  height: 4em;
+  width: 4em;
+}
